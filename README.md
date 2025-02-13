@@ -5,6 +5,7 @@ Native way
 - node .\app.js
 
 Codespace
+- select codespace branch
 - click button "Code"
 - create codespace on branch "codespace"
 
