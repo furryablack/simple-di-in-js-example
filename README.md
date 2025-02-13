@@ -8,6 +8,7 @@ Codespace
 - select codespace branch
 - click button "Code"
 - create codespace on branch "codespace"
+
 After all type in the terminal space:
 - npm run app
 
