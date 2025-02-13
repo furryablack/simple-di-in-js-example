@@ -1,4 +1,4 @@
-const { Stack } = require('./Stack');
+import { Stack } from './Stack.js';
 
 const stack = new Stack(3);
 

@@ -1,5 +1,5 @@
-const { Display } = require('./Display');
-const { Injector } = require('./Injector');
+import { Display } from './Display.js';
+import { Injector } from './Injector.js';
 
 const stackFactories = [
   Injector.factory(Display),
@@ -20,4 +20,4 @@ function Stack(limit = 1) {
   }
 }
 
-module.exports.Stack = InjactedStack;
+export { InjactedStack as Stack };

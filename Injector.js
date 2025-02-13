@@ -1,5 +1,5 @@
 const serviceInstancesMap = new Map();
-const Injector = {};
+export const Injector = {};
 
 Injector.inject = function inject(Service, factories = []) { 
   function InjectableService(...args) {
@@ -30,7 +30,7 @@ Injector.inject = function inject(Service, factories = []) {
 
     Service.apply(this, args);
   }
-  
+
   InjectableService.prototype.constructor = Service.prototype.constructor;
 
   return InjectableService;
@@ -86,5 +86,3 @@ Injector.factory = function factory(Service, options = { args: [], single: false
 
   return factory;
 };
-
-module.exports.Injector = Injector;

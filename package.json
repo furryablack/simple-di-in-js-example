@@ -1,0 +1,14 @@
+{
+  "name": "troll",
+  "version": "1.0.0",
+  "description": "Simple example how we can implement dependency injection by over native js functions without js classes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^22.14.0"
+  }
+}

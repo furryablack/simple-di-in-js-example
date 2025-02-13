@@ -1,11 +1,9 @@
-const { Injector } = require('./Injector');
+import { Injector } from './Injector.js';
 
 Injector.injectable(Display);
-function Display() {
+export function Display() {
 
   this.print = (message) => {
     console.log(`display: ${message}`);
   }
 }
-
-module.exports.Display = Display;
