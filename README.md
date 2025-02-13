@@ -8,3 +8,4 @@ Result:
 - stack.limit 3
 - ping
 - display: limit 3 (Stack object uses Display service injected into the Stack constructor)
+- Stack

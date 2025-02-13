@@ -30,6 +30,8 @@ Injector.inject = function inject(Service, factories = []) {
 
     Service.apply(this, args);
   }
+  
+  InjectableService.prototype.constructor = Service.prototype.constructor;
 
   return InjectableService;
 };

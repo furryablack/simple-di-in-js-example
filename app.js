@@ -5,3 +5,4 @@ const stack = new Stack(3);
 console.log('stack.limit', stack.limit)
 stack.ping();
 stack.printLimit();
+console.log(Stack.prototype.constructor.name);
